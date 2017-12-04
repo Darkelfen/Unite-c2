@@ -782,6 +782,9 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="Health" sid="872061973129381" type="number" />
+                <instance-variable name="isWalking" sid="321550548114884" type="boolean" />
+                <instance-variable name="isAttacking" sid="480400133910575" type="boolean" />
+                <instance-variable name="isHurt" sid="462486341539643" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="CustomMovement" sid="394213847029489">

@@ -450,6 +450,9 @@
                     </properties>
                     <instance-variables>
                         <Health>45</Health>
+                        <isWalking>false</isWalking>
+                        <isAttacking>false</isAttacking>
+                        <isHurt>false</isHurt>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="CustomMovement">
@@ -11704,6 +11707,9 @@
                     </properties>
                     <instance-variables>
                         <Health>45</Health>
+                        <isWalking>false</isWalking>
+                        <isAttacking>false</isAttacking>
+                        <isHurt>false</isHurt>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="CustomMovement">

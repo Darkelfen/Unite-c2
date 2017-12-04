@@ -1278,7 +1278,7 @@
                             <param id="0" name="Object">Player1</param>
                         </condition>
                         <condition id="2" name="Is playing" sid="760620359800762" type="Bear">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
                         </condition>
                         <condition id="3" name="Compare frame" sid="523550604554547" type="Bear">
                             <param id="0" name="Comparison">0</param>
@@ -1308,7 +1308,7 @@
                             <param id="0" name="Object">Player2</param>
                         </condition>
                         <condition id="2" name="Is playing" sid="208573685389211" type="Bear">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
                         </condition>
                         <condition id="3" name="Compare frame" sid="761134820212826" type="Bear">
                             <param id="0" name="Comparison">0</param>
@@ -3176,7 +3176,7 @@
                             <param id="0" name="Speed">0.7</param>
                         </action>
                         <action id="4" name="Set animation" sid="921344787071441" type="Snake">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                         <action id="3" name="Start" sid="640803463779039" type="Snake">
@@ -3191,15 +3191,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="6" name="Set speed" sid="596461396388787" type="Bear">
-                            <param id="0" name="Speed">0.7</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="401375822391268" type="Bear">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="3" name="Start" sid="539243594767526" type="Bear">
-                            <param id="0" name="From">1</param>
+                        <action id="-13" name="Set boolean" sid="850054977667050" type="Bear">
+                            <param id="0" name="Instance variable">isAttacking</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -3214,7 +3208,7 @@
                             <param id="0" name="Speed">0.7</param>
                         </action>
                         <action id="4" name="Set animation" sid="638898640690196" type="Snake">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                         <action id="3" name="Start" sid="906225232593312" type="Snake">
@@ -3229,15 +3223,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="6" name="Set speed" sid="611039440097650" type="Bear">
-                            <param id="0" name="Speed">0.7</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="226609530447669" type="Bear">
-                            <param id="0" name="Animation">&quot;Atack&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="3" name="Start" sid="277827749853444" type="Bear">
-                            <param id="0" name="From">1</param>
+                        <action id="-13" name="Set boolean" sid="368888462785001" type="Bear">
+                            <param id="0" name="Instance variable">isAttacking</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -3425,5 +3413,38 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="842816247175642">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="376506657744518" type="System" />
+                <condition id="-8" name="Is boolean instance variable set" sid="502972431655171" type="Bear">
+                    <param id="0" name="Instance variable">isAttacking</param>
+                </condition>
+                <condition id="2" inverted="1" name="Is playing" sid="988139325675084" type="Bear">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="773658865863715" type="Bear">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="6" name="Set speed" sid="770818880601394" type="Bear">
+                    <param id="0" name="Speed">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="752775397800717">
+            <conditions>
+                <condition id="4" name="On finished" sid="838594323811178" type="Bear">
+                    <param id="0" name="Animation">&quot;Attacking&quot;</param>
+                </condition>
+                <condition id="-1" name="Every tick" sid="592426163639376" type="System" />
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="404082396105628" type="Bear">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
