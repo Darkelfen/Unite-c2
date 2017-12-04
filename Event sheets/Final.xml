@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Final</name>
+    <events>
+        <event-block sid="765476591241549">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="480994408408197" type="System">
+                    <param id="0" name="Variable">Player1HP</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="578563290537966" type="Gana2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="688326028658041" type="Gana2" />
+            </actions>
+        </event-block>
+        <event-block sid="324694088137916">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="413800534087153" type="System">
+                    <param id="0" name="Variable">Player2HP</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="485279847648033" type="Gana1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="396767923176941" type="Gana1" />
+            </actions>
+        </event-block>
+        <event-block sid="895097110045103">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="933012719657166" type="System" />
+            </conditions>
+            <actions>
+                <action id="-17" name="Set layer scale" sid="516891070867245" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Scale">0.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="281657317090494" type="Gana2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="577775276608392" type="Gana2" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

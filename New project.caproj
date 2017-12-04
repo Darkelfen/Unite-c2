@@ -1,0 +1,1571 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2b5pqr4xm6d50</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_pin2imgpt" version="1">Pin to image point</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="warpmask">Warp Mask</effect>
+        <effect author="Viktor Korsun" id="waterbg">Water background</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Player1" sid="417579563840573">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="436128409647672" type="number" />
+                <instance-variable name="Axe" sid="744241635256294" type="boolean" />
+                <instance-variable name="Poisoned" sid="757964094502105" type="boolean" />
+                <instance-variable name="Hunger" sid="476635130797929" type="number" />
+                <instance-variable name="Swimming" sid="634407198821492" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="604629593273726">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="562118917009262">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="896035940513086">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="461401256540351">
+                    <behavior id="LOS" />
+                </behavior-type>
+                <behavior-type name="Jumpthru" sid="623390153920425">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234682499330752" speed="5">
+                    <frame duration="1" hotspotX="0.516949" hotspotY="0.383459" original-source="C:\Users\Hachi\Desktop\persona 2.png">
+                        <image-point name="Imagepoint 1" x="1.01695" y="0.0225564" />
+                        <image-point name="Imagepoint 2" x="4.38136" y="0.270677" />
+                        <image-point name="Imagepoint 3" x="9.34746" y="-2.36466" />
+                        <image-point name="Imagepoint 4" x="-0.0338983" y="0.315789" />
+                        <image-point name="Imagepoint 5" x="0.110169" y="0.710526" />
+                        <image-point name="HPBAR" x="0.5" y="1.10902" />
+                        <image-point name="SPEECH" x="-4.66102" y="-0.488722" />
+                        <image-point name="POISON" x="1.14407" y="-0.18797" />
+                        <collision-poly>
+                            <point x="0" y="0.278195" />
+                            <point x="0.491525" y="0" />
+                            <point x="1" y="0.334587" />
+                            <point x="0.716101" y="0.99812" />
+                            <point x="0.254238" y="0.990601" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Cut" pingpong="0" repeatcount="1" repeatto="0" sid="623601539319378" speed="5">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\leñador.png">
+                        <image-point name="SPEECH" x="-1.83333" y="-0.433333" />
+                        <image-point name="HPBAR" x="0.473333" y="1.05667" />
+                        <collision-poly>
+                            <point x="0.403121" y="0.128319" />
+                            <point x="0.554752" y="0.212744" />
+                            <point x="0.866667" y="0.233983" />
+                            <point x="0.916382" y="0.346667" />
+                            <point x="0.563617" y="0.375664" />
+                            <point x="0.656454" y="0.938112" />
+                            <point x="0.338511" y="0.934838" />
+                            <point x="0.38695" y="0.486667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="850687707332015" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\ataque ejemplo.png">
+                        <collision-poly>
+                            <point x="0.718593" y="0.487032" />
+                            <point x="0.924623" y="0.242075" />
+                            <point x="0.974874" y="0.314121" />
+                            <point x="0.78392" y="0.550432" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="968468188911804" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="406520566783753" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\nadando 1 player 1.png">
+                        <collision-poly>
+                            <point x="0.467337" y="0.268012" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.778894" y="0.498559" />
+                            <point x="0.497487" y="0.397695" />
+                            <point x="0.653266" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\nadando 2 player 1.png">
+                        <collision-poly>
+                            <point x="0.462312" y="0.26513" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.407035" y="0.498559" />
+                            <point x="0.497487" y="0.400576" />
+                            <point x="0.281407" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\quieto agua player 1.png">
+                        <collision-poly>
+                            <point x="0.462312" y="0.26513" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.497487" y="0.400576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player2" sid="485496962749566">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="492550429809286" type="number" />
+                <instance-variable name="Axe" sid="503295865681232" type="boolean" />
+                <instance-variable name="Poisoned" sid="998821855225179" type="boolean" />
+                <instance-variable name="Hunger" sid="133933044446532" type="number" />
+                <instance-variable name="Swimming" sid="458375928481671" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="680771290294709">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="316740427133661">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="663069838404962">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="535848027638746" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.444043" original-source="C:\Users\Hachi\Desktop\persona.png">
+                        <image-point name="HPBAR" x="0.5" y="1.10108" />
+                        <image-point name="SPEECH" x="-3.98551" y="-0.469314" />
+                        <image-point name="POISON" x="0.978261" y="-0.180505" />
+                        <collision-poly>
+                            <point x="0.0507251" y="0.032491" />
+                            <point x="0.442028" y="0.0469309" />
+                            <point x="0.891304" y="0.00722011" />
+                            <point x="0.65942" y="0.494585" />
+                            <point x="0.724637" y="0.902526" />
+                            <point x="0.282609" y="0.844765" />
+                            <point x="0.333334" y="0.494585" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Cut" pingpong="0" repeatcount="1" repeatto="0" sid="241216412929726" speed="5">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\leñador.png">
+                        <image-point name="HPBAR" x="0.473333" y="1.05667" />
+                        <image-point name="SPEECH" x="-1.83333" y="-0.433333" />
+                        <collision-poly>
+                            <point x="0.421206" y="0.161662" />
+                            <point x="0.514154" y="0.145831" />
+                            <point x="0.873333" y="0.233679" />
+                            <point x="0.915745" y="0.338559" />
+                            <point x="0.554858" y="0.4" />
+                            <point x="0.65082" y="0.960115" />
+                            <point x="0.330804" y="0.944448" />
+                            <point x="0.381357" y="0.515226" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\persona.png">
+                        <collision-poly>
+                            <point x="0.226131" y="0.129683" />
+                            <point x="0.497487" y="0.14121" />
+                            <point x="0.809045" y="0.10951" />
+                            <point x="0.648241" y="0.498559" />
+                            <point x="0.693467" y="0.824207" />
+                            <point x="0.386935" y="0.778098" />
+                            <point x="0.422111" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="209799063622089" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\ataque ejemplo.png">
+                        <image-point name="HPBAR" x="0.713568" y="0.501441" />
+                        <collision-poly>
+                            <point x="0.954774" y="0.236311" />
+                            <point x="0.994975" y="0.305475" />
+                            <point x="0.773869" y="0.56196" />
+                            <point x="0.703518" y="0.495677" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="Swim" pingpong="0" repeatcount="1" repeatto="0" sid="990736174431708" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\nadando 1 player 1.png">
+                        <collision-poly>
+                            <point x="0.467337" y="0.268012" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.778894" y="0.498559" />
+                            <point x="0.497487" y="0.397695" />
+                            <point x="0.653266" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\nadando 2 player 1.png">
+                        <collision-poly>
+                            <point x="0.462312" y="0.26513" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.407035" y="0.498559" />
+                            <point x="0.497487" y="0.400576" />
+                            <point x="0.281407" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\Cosas\quieto agua player 1.png">
+                        <collision-poly>
+                            <point x="0.462312" y="0.26513" />
+                            <point x="0.497487" y="0.256484" />
+                            <point x="0.552764" y="0.256484" />
+                            <point x="0.497487" y="0.400576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Snake" sid="349902884327779">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="567710922858387" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="627819731155884">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="CustomMovement" sid="525095487559966">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="324129917528439">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136553127579795" speed="5">
+                    <frame duration="1" hotspotX="0.490741" hotspotY="0.473118" original-source="C:\Users\Hachi\Desktop\serpiente.png">
+                        <collision-poly>
+                            <point x="0.777778" y="0.838709" />
+                            <point x="0.138889" y="0.827957" />
+                            <point x="0.416667" y="0.655914" />
+                            <point x="0.495371" y="0.123656" />
+                            <point x="0.537037" y="0.655913" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="319123124332639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Sprites Unite\ataque serpiente.png">
+                        <collision-poly>
+                            <point x="0.86625" y="0.6525" />
+                            <point x="0.96375" y="0.81" />
+                            <point x="0.25" y="0.795" />
+                            <point x="0.4875" y="0.545" />
+                            <point x="0.0825001" y="0.21125" />
+                            <point x="0.15" y="0.14" />
+                            <point x="0.5" y="0.44" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Hachi\Desktop\Cosas\serpiente.png">
+                        <collision-poly>
+                            <point x="0.527778" y="0.494624" />
+                            <point x="0.518519" y="0.44086" />
+                            <point x="0.5" y="0.849462" />
+                            <point x="0.148148" y="0.827957" />
+                            <point x="0.453704" y="0.494624" />
+                            <point x="0.453704" y="0.526882" />
+                            <point x="0.5" y="0.129032" />
+                            <point x="0.546296" y="0.526882" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tree" sid="759581944338392">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Chop" sid="330288579545073" type="number" />
+                <instance-variable name="BurnoutTimer" sid="217945357491130" type="number" />
+                <instance-variable name="Burning" sid="296445571061693" type="boolean" />
+                <instance-variable name="Burned" sid="171754815122762" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="307969413755099">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="482139724185388" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol 4.png">
+                        <image-point name="Imagepoint 1" x="0.0272727" y="0.967213" />
+                        <image-point name="Imagepoint 2" x="0" y="0.606557" />
+                        <collision-poly>
+                            <point x="0.548871" y="0.237705" />
+                            <point x="0.549607" y="0.983607" />
+                            <point x="0.346599" y="0.970287" />
+                            <point x="0.354205" y="0.242691" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Corte" pingpong="0" repeatcount="1" repeatto="0" sid="670526415939501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol talado mitad.png">
+                        <collision-poly>
+                            <point x="0.563636" y="0.360656" />
+                            <point x="0.590909" y="0.967213" />
+                            <point x="0.345455" y="0.983606" />
+                            <point x="0.390908" y="0.377049" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol talado.png">
+                        <collision-poly>
+                            <point x="0.336363" y="0.762295" />
+                            <point x="0.563637" y="0.762295" />
+                            <point x="0.672727" y="0.991803" />
+                            <point x="0.245454" y="0.983606" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Burning" pingpong="0" repeatcount="1" repeatto="0" sid="108653717411328" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Unite Def\arbol quemandose.png">
+                        <collision-poly>
+                            <point x="0.281818" y="0.254098" />
+                            <point x="0.5" y="0.057377" />
+                            <point x="0.709091" y="0.5" />
+                            <point x="0.772727" y="0.795082" />
+                            <point x="0.5" y="0.991803" />
+                            <point x="0.227273" y="0.795082" />
+                            <point x="0.2" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vision" sid="492785767148910">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="SnakeID" sid="215709389150306" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="506100763484870">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270555321572059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.264" y="0.992" />
+                            <point x="0.0465" y="0.775" />
+                            <point x="0.0450001" y="0.274" />
+                            <point x="0.31" y="0.004" />
+                            <point x="0.712" y="0" />
+                            <point x="0.94" y="0.248" />
+                            <point x="0.948" y="0.756" />
+                            <point x="0.7" y="0.988" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backpack" sid="679062382499571">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="133790007649688">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569690263900600" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\mochila2.png">
+                        <collision-poly>
+                            <point x="0.223864" y="0.0974576" />
+                            <point x="0.489773" y="0.0942796" />
+                            <point x="0.779545" y="0.100636" />
+                            <point x="0.840909" y="0.491525" />
+                            <point x="0.863636" y="0.923729" />
+                            <point x="0.5" y="0.932203" />
+                            <point x="0.125" y="0.904661" />
+                            <point x="0.159091" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Axe2" sid="327595347472900">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="473443923585878">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="PinToImagePoint" sid="752282922622591">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="821607629344793" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Hachi\Desktop\hacha.png">
+                        <collision-poly>
+                            <point x="0.381818" y="0.451613" />
+                            <point x="0.5" y="0.16129" />
+                            <point x="0.836364" y="0.193548" />
+                            <point x="0.681818" y="0.494624" />
+                            <point x="0.554545" y="0.473118" />
+                            <point x="0.5" y="0.537634" />
+                            <point x="0.127273" y="0.849462" />
+                            <point x="0.327273" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Axe1" sid="445484123352310">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="916809398825896">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="344006176214224">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183086789174690" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Hachi\Desktop\hacha.png">
+                        <collision-poly>
+                            <point x="0.381818" y="0.451613" />
+                            <point x="0.5" y="0.16129" />
+                            <point x="0.836364" y="0.193548" />
+                            <point x="0.681818" y="0.494624" />
+                            <point x="0.554545" y="0.473118" />
+                            <point x="0.5" y="0.537634" />
+                            <point x="0.127273" y="0.849462" />
+                            <point x="0.327273" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="699354020827328">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Mouse" sid="980323424871264">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Bocadillo" sid="436351336641186">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Timer" sid="761602695906527" type="number" />
+                <instance-variable name="OffsetTimer" sid="308352182428390" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="136991123291394">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="979831729738056" speed="5">
+                    <frame duration="1" hotspotX="0.253365" hotspotY="0.356347" original-source="C:\Users\usuario\Desktop\U\Otros\Bocadillo.png">
+                        <collision-poly>
+                            <point x="0.212193" y="0.298441" />
+                            <point x="0.499604" y="0.00445434" />
+                            <point x="0.82502" y="0.246102" />
+                            <point x="0.855107" y="0.5" />
+                            <point x="0.788599" y="0.702673" />
+                            <point x="0.499604" y="0.868597" />
+                            <point x="0.24228" y="0.659243" />
+                            <point x="0.197941" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="538830536877156">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="267559937140869">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="InventoryUI" sid="894251454524581">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="IsOnScreen" sid="109104310796659" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="512319018922580">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488333074938768" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\mochila2.png">
+                        <collision-poly>
+                            <point x="0.227273" y="0.211864" />
+                            <point x="0.5" y="0.177966" />
+                            <point x="0.772727" y="0.211864" />
+                            <point x="0.772727" y="0.5" />
+                            <point x="0.863636" y="0.872881" />
+                            <point x="0.5" y="0.932203" />
+                            <point x="0.136364" y="0.872881" />
+                            <point x="0.227273" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ToolUI" sid="177416428128676">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="301217500894923">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448107272205439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\martillo.png">
+                        <collision-poly>
+                            <point x="0.146965" y="0.146965" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853035" y="0.146965" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853035" y="0.853035" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146965" y="0.853035" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="debug" sid="697765034041052">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="271436346774130">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Player3" sid="101858331227423">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="926619402779186" type="number" />
+                <instance-variable name="Axe" sid="797284302358231" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="727119602115010">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="754766151071034">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835134743876316" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.447368" original-source="C:\Users\Hachi\Desktop\persona 2.png">
+                        <collision-poly>
+                            <point x="0.0338991" y="0.259399" />
+                            <point x="0.906779" y="0.251879" />
+                            <point x="0.881356" y="0.530076" />
+                            <point x="0.700212" y="0.99248" />
+                            <point x="0.300848" y="0.991072" />
+                            <point x="0.101696" y="0.507519" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Cortar" pingpong="0" repeatcount="1" repeatto="0" sid="114193226892283" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\leñador 4.png">
+                        <collision-poly>
+                            <point x="0.269504" y="0.168142" />
+                            <point x="0.836879" y="0.10177" />
+                            <point x="0.489362" y="0.5" />
+                            <point x="0.638298" y="0.774336" />
+                            <point x="0.496454" y="0.725664" />
+                            <point x="0.191489" y="0.880531" />
+                            <point x="0.276596" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="533314671503735" speed="5">
+                    <frame duration="1" hotspotX="0.286765" hotspotY="0.467742" original-source="C:\Users\Hachi\Desktop\ataque ejemplo.png">
+                        <collision-poly>
+                            <point x="0.0147058" y="0.96371" />
+                            <point x="0.367647" y="0" />
+                            <point x="0.977941" y="0.181452" />
+                            <point x="0.433824" y="0.987903" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player4" sid="811723285523501">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="629651080889603" type="number" />
+                <instance-variable name="Axe" sid="807611882881551" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="473579497077408">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="353994016529396">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="989974451061323" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.476534" original-source="C:\Users\Hachi\Desktop\persona.png">
+                        <collision-poly>
+                            <point x="0.0507251" y="0.032491" />
+                            <point x="0.442028" y="0.0469309" />
+                            <point x="0.891304" y="0.00722011" />
+                            <point x="0.65942" y="0.494585" />
+                            <point x="0.732789" y="0.992328" />
+                            <point x="0.255436" y="0.991426" />
+                            <point x="0.333334" y="0.494585" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Cortar" pingpong="0" repeatcount="1" repeatto="0" sid="989541509809040" speed="5">
+                    <frame duration="1" hotspotX="0.502513" hotspotY="0.501441" original-source="C:\Users\Hachi\Desktop\leñador 4.png">
+                        <collision-poly>
+                            <point x="0.241206" y="0.138329" />
+                            <point x="0.497487" y="0.0691643" />
+                            <point x="0.929648" y="0.0403458" />
+                            <point x="0.482412" y="0.498559" />
+                            <point x="0.638191" y="0.792507" />
+                            <point x="0.497487" y="0.680115" />
+                            <point x="0.160804" y="0.907781" />
+                            <point x="0.271357" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="865683577765668" speed="5">
+                    <frame duration="1" hotspotX="0.625" hotspotY="0.459677" original-source="C:\Users\Hachi\Desktop\ataque ejemplo.png">
+                        <collision-poly>
+                            <point x="0.985294" y="0.967742" />
+                            <point x="0.617648" y="1" />
+                            <point x="0" y="0.193548" />
+                            <point x="0.0514703" y="0.0967739" />
+                            <point x="0.61397" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="821514446121880">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="679709433447260">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848884629214070" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="p1HpBar" sid="383431679296470">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="235404106214275" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="p2HpBar" sid="929437215392289">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342059169617100" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="943538927402319">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Hachi\Desktop\mapa 3.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="919199573021105">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Hachi\Desktop\lago.png" />
+        </object-type>
+        <object-type name="Sprite2" sid="980872229510932">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="WarpMask">
+                    <effect id="warpmask" />
+                </effect-type>
+                <effect-type name="WaterBackground">
+                    <effect id="waterbg" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="899035141524569" speed="5">
+                    <frame duration="1" hotspotX="0.50211" hotspotY="0.50505" original-source="C:\Users\Hachi\Desktop\lago 4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lake" sid="663107787195757">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="822415941251456">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667013245101584" speed="5">
+                    <frame duration="1" hotspotX="0.50211" hotspotY="0.50505" original-source="C:\Users\Hachi\Desktop\lago 5.png">
+                        <collision-poly>
+                            <point x="0.0464135" y="0.20202" />
+                            <point x="0.49789" y="0.040404" />
+                            <point x="0.74789" y="6.98492e-009" />
+                            <point x="0.976793" y="0.252525" />
+                            <point x="0.994726" y="0.583333" />
+                            <point x="0.49789" y="0.989899" />
+                            <point x="0.119198" y="0.861111" />
+                            <point x="0.00421941" y="0.494949" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bear" sid="860715481823252">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="872061973129381" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="394213847029489">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="361762817983266">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="669883355172447">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568544558375987" speed="5">
+                    <frame duration="1" hotspotX="0.493581" hotspotY="0.529046" original-source="C:\Users\Hachi\Desktop\Bear.png">
+                        <image-point name="MEAT1" x="0.0513552" y="0.975104" />
+                        <image-point name="MEAT2" x="0.475036" y="0.975104" />
+                        <image-point name="MEAT3" x="0.950071" y="0.975104" />
+                        <image-point name="PELT" x="0.485021" y="0.456432" />
+                        <collision-poly>
+                            <point x="0.202568" y="0.124481" />
+                            <point x="0.493581" y="0.0622407" />
+                            <point x="0.649073" y="0.223029" />
+                            <point x="0.912981" y="0.528008" />
+                            <point x="0.757489" y="0.912863" />
+                            <point x="0.493581" y="0.825726" />
+                            <point x="0.236805" y="0.907676" />
+                            <point x="0.156919" y="0.528008" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="305213654964287" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500403" original-source="C:\Users\Hachi\Desktop\Bear Atack.png">
+                        <image-point name="MEAT1" x="0.0413793" y="0.757454" />
+                        <image-point name="MEAT2" x="0.382759" y="0.757454" />
+                        <image-point name="MEAT3" x="0.765517" y="0.757454" />
+                        <image-point name="PELT" x="0.390805" y="0.354553" />
+                        <collision-poly>
+                            <point x="0.054023" y="0.34166" />
+                            <point x="0.503449" y="0.298952" />
+                            <point x="0.611782" y="0.143634" />
+                            <point x="0.783334" y="0.301773" />
+                            <point x="0.893966" y="0.847502" />
+                            <point x="0.521839" y="0.839646" />
+                            <point x="0.165517" y="0.485092" />
+                            <point x="0.0563218" y="0.480258" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500403" original-source="C:\Users\Hachi\Desktop\Bear.png">
+                        <collision-poly>
+                            <point x="0.265517" y="0.18614" />
+                            <point x="0.5" y="0.137792" />
+                            <point x="0.625287" y="0.262691" />
+                            <point x="0.837931" y="0.499597" />
+                            <point x="0.712644" y="0.79855" />
+                            <point x="0.5" y="0.730862" />
+                            <point x="0.293103" y="0.794521" />
+                            <point x="0.228736" y="0.499597" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BonfireAoE" sid="344011008302529">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="654260511123580">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596259485535506" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.08" y="0.156" />
+                            <point x="0.5" y="0" />
+                            <point x="0.92" y="0.152" />
+                            <point x="0.916" y="0.864" />
+                            <point x="0.512" y="1" />
+                            <point x="0.084" y="0.866001" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DnDBonfire" sid="120203893601857">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Timer" sid="622551906841328" type="number" />
+                <instance-variable name="IsCreated" sid="426477554010270" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="792390904575350">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="490511573612338">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="747446094551744">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="966728224807263" speed="5">
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504587" original-source="C:\Users\Hachi\Desktop\fogata.png">
+                        <image-point name="Descript" x="0.980583" y="0.0366972" />
+                        <collision-poly>
+                            <point x="0.504855" y="0.00917431" />
+                            <point x="1" y="0.229357" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.220184" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Apple" sid="877240219786364">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Timer" sid="591356383003470" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850936093959331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Unite\manzana.png">
+                        <collision-poly>
+                            <point x="0.273486" y="0.238182" />
+                            <point x="0.5" y="0.184545" />
+                            <point x="0.93737" y="0.0545455" />
+                            <point x="0.997912" y="0.5" />
+                            <point x="0.859081" y="0.877273" />
+                            <point x="0.5" y="0.991818" />
+                            <point x="0.151357" y="0.868182" />
+                            <point x="0.0135699" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cliff" sid="162274676052247">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689082276738109" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Celular" sid="174093932130314">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Axe" sid="285318127275789" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478655952463624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Unite\celular.png">
+                        <collision-poly>
+                            <point x="0.0926518" y="0.0926518" />
+                            <point x="0.5" y="0.0734824" />
+                            <point x="0.682109" y="0.317891" />
+                            <point x="0.910543" y="0.910543" />
+                            <point x="0.5" y="0.926518" />
+                            <point x="0.324281" y="0.675719" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HpPlayer1" sid="302825720211674">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HpPlayer2" sid="905009205983963">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Vision2" sid="336278608555298">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="SnakeID" sid="639063351033932" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="709355549405455">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727241509365780" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Unite\rosado.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="debug2" sid="813763500398388">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="974055347238870">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Bocadillo2" sid="883994265327686">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Timer" sid="148538505337659" type="number" />
+                <instance-variable name="OffsetTimer" sid="343976311539163" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="369869980238067">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687180806909541" speed="5">
+                    <frame duration="1" hotspotX="0.253365" hotspotY="0.356347" original-source="C:\Users\Hachi\Desktop\Unite\bocadillo.png">
+                        <collision-poly>
+                            <point x="0.212193" y="0.298441" />
+                            <point x="0.499604" y="0.00445434" />
+                            <point x="0.82502" y="0.246102" />
+                            <point x="0.855107" y="0.5" />
+                            <point x="0.788599" y="0.702673" />
+                            <point x="0.499604" y="0.868597" />
+                            <point x="0.24228" y="0.659243" />
+                            <point x="0.197941" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="742936469107722">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="705779473219072">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Inventory" sid="979344464400172">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="118089674724440">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654446884146765" speed="5">
+                    <frame duration="1" hotspotX="0.500612" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\inventario.png">
+                        <image-point name="Imagepoint 1" x="0.152999" y="0.224576" />
+                        <image-point name="Imagepoint 2" x="0.30355" y="0.224576" />
+                        <image-point name="Imagepoint 3" x="0.518972" y="0.224576" />
+                        <image-point name="Imagepoint 4" x="0.146879" y="0.491525" />
+                        <image-point name="Imagepoint 5" x="0.336597" y="0.495763" />
+                        <image-point name="Imagepoint 6" x="0.801714" y="0.239407" />
+                        <image-point name="Imagepoint 7" x="0.73929" y="0.495763" />
+                        <collision-poly>
+                            <point x="0.0771114" y="0.133475" />
+                            <point x="0.499388" y="0.0805085" />
+                            <point x="0.922889" y="0.133475" />
+                            <point x="0.922889" y="0.866525" />
+                            <point x="0.499388" y="0.917373" />
+                            <point x="0.0771114" y="0.866525" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Close" sid="151246483989422">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="768754358432407">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373550544736038" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\Prototipo\cerrar-borrar-boton-de-eliminar_318-9073.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Axe3" sid="243645671951519">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="874761348789852">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432471835519506" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Hachi\Desktop\Cosas\hacha.png">
+                        <collision-poly>
+                            <point x="0.381818" y="0.451613" />
+                            <point x="0.5" y="0.16129" />
+                            <point x="0.836364" y="0.193548" />
+                            <point x="0.681818" y="0.494624" />
+                            <point x="0.554545" y="0.473118" />
+                            <point x="0.5" y="0.537634" />
+                            <point x="0.127273" y="0.849462" />
+                            <point x="0.327273" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Axe4" sid="574350660280056">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="786951784696457">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="140545049361260" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Hachi\Desktop\Cosas\hacha.png">
+                        <collision-poly>
+                            <point x="0.381818" y="0.451613" />
+                            <point x="0.5" y="0.16129" />
+                            <point x="0.836364" y="0.193548" />
+                            <point x="0.681818" y="0.494624" />
+                            <point x="0.554545" y="0.473118" />
+                            <point x="0.5" y="0.537634" />
+                            <point x="0.127273" y="0.849462" />
+                            <point x="0.327273" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="567822656543293">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240215012692209" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Trunks" sid="692496223539424">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="373845442951031">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286798652112873" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\troncos.png">
+                        <collision-poly>
+                            <point x="0.239617" y="0.239617" />
+                            <point x="0.5" y="0.194888" />
+                            <point x="0.800319" y="0.199681" />
+                            <point x="0.961661" y="0.5" />
+                            <point x="0.757188" y="0.757188" />
+                            <point x="0.5" y="0.808307" />
+                            <point x="0.170927" y="0.829073" />
+                            <point x="0.226837" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CountTrunks" sid="920806067012978">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="271824876670899">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Bonfire2" sid="700466806647357">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="599118663142105">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="171560891881207">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266427133708251" speed="5">
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504587" original-source="C:\Users\Hachi\Desktop\Cosas\fogata.png">
+                        <collision-poly>
+                            <point x="0.495146" y="0.311927" />
+                            <point x="0.61165" y="0.366972" />
+                            <point x="0.728155" y="0.495413" />
+                            <point x="0.757282" y="0.770642" />
+                            <point x="0.495146" y="0.908257" />
+                            <point x="0.213592" y="0.798165" />
+                            <point x="0.330097" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="927296409249426">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Gana2" sid="780621435314924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332668005496519" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\gana 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="150040392404369">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Hachi\Desktop\portada ejemplo.png" />
+        </object-type>
+        <object-type name="Sprite5" sid="831220101101675">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658701747108867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\portada ejemplo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Comienzo" sid="617829538129184">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite6" sid="839043348421676">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391318972237505" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Instrucciones.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="412305770145530">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Jail" sid="441984591088903">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="155009644013180">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505124389558845" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gana1" sid="996642066710553">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801827841155821" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\Cosas\gana 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vision3" sid="938131312926707">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="SnakeID" sid="481069293627066" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="795781039990121">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806180431450207" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.264" y="0.992" />
+                            <point x="0.0465" y="0.775" />
+                            <point x="0.0450001" y="0.274" />
+                            <point x="0.31" y="0.004" />
+                            <point x="0.712" y="0" />
+                            <point x="0.94" y="0.248" />
+                            <point x="0.948" y="0.756" />
+                            <point x="0.7" y="0.988" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vision4" sid="327132080531463">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="SnakeID" sid="656277880030803" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="825877124817046">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="419644882284277" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.264" y="0.992" />
+                            <point x="0.0465" y="0.775" />
+                            <point x="0.0450001" y="0.274" />
+                            <point x="0.31" y="0.004" />
+                            <point x="0.712" y="0" />
+                            <point x="0.94" y="0.248" />
+                            <point x="0.948" y="0.756" />
+                            <point x="0.7" y="0.988" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HPBAR1" sid="670380974712653">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="852119661075687">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489854451106031" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HPBAR2" sid="969601153671270">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="672734982566380">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187932111496687" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="meat" sid="963811795388282">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="timer" sid="591381963098749" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="667447568318068">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="PinToImagePoint" sid="377787893675662">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588227331694046" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Steak_icon-icons.com_68688.png">
+                        <collision-poly>
+                            <point x="0.332031" y="0.242188" />
+                            <point x="0.654297" y="0.142578" />
+                            <point x="0.90332" y="0.374023" />
+                            <point x="0.839844" y="0.707031" />
+                            <point x="0.199219" y="0.929688" />
+                            <point x="0.0800781" y="0.740234" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WaterPond" sid="399009048949251">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="578997933829980">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="PinToImagePoint" sid="549783533592348">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="914826854418183" speed="5">
+                    <frame duration="1" hotspotX="0.50211" hotspotY="0.50505" original-source="C:\Users\Hachi\Desktop\lago 5.png">
+                        <collision-poly>
+                            <point x="0.0464135" y="0.20202" />
+                            <point x="0.49789" y="0.040404" />
+                            <point x="0.74789" y="6.98492e-009" />
+                            <point x="0.976793" y="0.252525" />
+                            <point x="0.994726" y="0.583333" />
+                            <point x="0.49789" y="0.989899" />
+                            <point x="0.119198" y="0.861111" />
+                            <point x="0.00421941" y="0.494949" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pelt" sid="974166211242229">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289230137558005" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\pelt.png">
+                        <collision-poly>
+                            <point x="0.204" y="0.36" />
+                            <point x="0.784" y="0.28" />
+                            <point x="0.792" y="0.724" />
+                            <point x="0.192" y="0.648" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MeatToCook" sid="174242276012683">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="timer" sid="695115279951076" type="number" />
+                <instance-variable name="IsCook" sid="280322579891227" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="485926506380165">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="PinToImagePoint" sid="580710393518923">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884061142513930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Steak_icon-icons.com_68688.png">
+                        <collision-poly>
+                            <point x="0.332031" y="0.242188" />
+                            <point x="0.654297" y="0.142578" />
+                            <point x="0.90332" y="0.374023" />
+                            <point x="0.839844" y="0.707031" />
+                            <point x="0.199219" y="0.929688" />
+                            <point x="0.0800781" y="0.740234" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DnDBucket" sid="736451064355923">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="water" sid="857671304974551" type="boolean" />
+                <instance-variable name="created" sid="256608094235194" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="536095745992246">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="204930872709197">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303292068227978" speed="5">
+                    <frame duration="1" hotspotX="0.501272" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\cubo.png">
+                        <image-point name="Descript" x="1" y="0" />
+                        <collision-poly>
+                            <point x="0.0407125" y="0.0355556" />
+                            <point x="0.498728" y="0.148889" />
+                            <point x="0.959288" y="0.0355556" />
+                            <point x="0.898219" y="0.5" />
+                            <point x="0.791349" y="0.957778" />
+                            <point x="0.208651" y="0.951111" />
+                            <point x="0.0992366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Water" pingpong="0" repeatcount="1" repeatto="0" sid="822422928284584" speed="5">
+                    <frame duration="1" hotspotX="0.501272" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\cubo agua.png">
+                        <collision-poly>
+                            <point x="0.0407125" y="0.0355556" />
+                            <point x="0.498728" y="0.148889" />
+                            <point x="0.959288" y="0.0355556" />
+                            <point x="0.898219" y="0.5" />
+                            <point x="0.816794" y="0.84" />
+                            <point x="0.498728" y="0.986667" />
+                            <point x="0.183206" y="0.84" />
+                            <point x="0.0992366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bucket" sid="737332934911231">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="357186595815290">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257320901907320" speed="5">
+                    <frame duration="1" hotspotX="0.501272" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\cubo.png">
+                        <collision-poly>
+                            <point x="0.0407125" y="0.0355556" />
+                            <point x="0.498728" y="0.148889" />
+                            <point x="0.959288" y="0.0355556" />
+                            <point x="0.898219" y="0.5" />
+                            <point x="0.791349" y="0.957778" />
+                            <point x="0.208651" y="0.951111" />
+                            <point x="0.0992366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501272" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\cubo agua.png">
+                        <collision-poly>
+                            <point x="0.0407125" y="0.0355556" />
+                            <point x="0.498728" y="0.148889" />
+                            <point x="0.959288" y="0.0355556" />
+                            <point x="0.898219" y="0.5" />
+                            <point x="0.793893" y="0.966667" />
+                            <point x="0.195929" y="0.957778" />
+                            <point x="0.0992366" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="561848393789589">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111841706127265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="burbujas_" sid="157927907153330">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="841662870638932">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727485803891120" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\burbujas_1.png">
+                        <collision-poly>
+                            <point x="0.28" y="0.28" />
+                            <point x="0.5" y="0.11" />
+                            <point x="0.86" y="0.5" />
+                            <point x="0.69" y="0.69" />
+                            <point x="0.5" y="0.86" />
+                            <point x="0.14" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="burbujas_2" sid="828629191159545">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="PinToImagePoint" sid="797363113681934">
+                    <behavior id="Rex_pin2imgpt" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356626208527683" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\burbujas_1.png">
+                        <collision-poly>
+                            <point x="0.28" y="0.28" />
+                            <point x="0.5" y="0.11" />
+                            <point x="0.86" y="0.5" />
+                            <point x="0.69" y="0.69" />
+                            <point x="0.5" y="0.86" />
+                            <point x="0.14" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Portada.xml</layout>
+        <layout>Instrucciones.xml</layout>
+        <layout>Main.xml</layout>
+        <layout>Final.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Main.xml</event-sheet>
+        <event-sheet>Final.xml</event-sheet>
+        <event-sheet>Portada.xml</event-sheet>
+        <event-sheet>Instrucciones.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="9" />
+        <global-instance type="Mouse" uid="10" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
