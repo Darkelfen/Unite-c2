@@ -795,52 +795,274 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568544558375987" speed="5">
-                    <frame duration="1" hotspotX="0.493581" hotspotY="0.529046" original-source="C:\Users\Hachi\Desktop\Bear.png">
-                        <image-point name="MEAT1" x="0.0513552" y="0.975104" />
-                        <image-point name="MEAT2" x="0.475036" y="0.975104" />
-                        <image-point name="MEAT3" x="0.950071" y="0.975104" />
-                        <image-point name="PELT" x="0.485021" y="0.456432" />
-                        <collision-poly>
-                            <point x="0.202568" y="0.124481" />
-                            <point x="0.493581" y="0.0622407" />
-                            <point x="0.649073" y="0.223029" />
-                            <point x="0.912981" y="0.528008" />
-                            <point x="0.757489" y="0.912863" />
-                            <point x="0.493581" y="0.825726" />
-                            <point x="0.236805" y="0.907676" />
-                            <point x="0.156919" y="0.528008" />
-                        </collision-poly>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568544558375987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\0.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00909" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\1.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00909" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\2.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00909" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\3.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00893" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.0357143" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\4.png">
+                        <image-point name="MEAT1" x="0.0277778" y="1.00893" />
+                        <image-point name="MEAT2" x="0.972222" y="1" />
+                        <image-point name="MEAT3" x="0.444444" y="0.0357143" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\5.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00926" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.037037" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\6.png">
+                        <image-point name="MEAT1" x="0.03125" y="1.00909" />
+                        <image-point name="MEAT2" x="0.96875" y="1" />
+                        <image-point name="MEAT3" x="0.4375" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\7.png">
+                        <image-point name="MEAT1" x="0.025974" y="1.00909" />
+                        <image-point name="MEAT2" x="0.974026" y="1" />
+                        <image-point name="MEAT3" x="0.441558" y="0.0363636" />
                     </frame>
                 </animation>
-                <animation framecount="2" loop="0" name="Atack" pingpong="0" repeatcount="1" repeatto="0" sid="305213654964287" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500403" original-source="C:\Users\Hachi\Desktop\Bear Atack.png">
-                        <image-point name="MEAT1" x="0.0413793" y="0.757454" />
-                        <image-point name="MEAT2" x="0.382759" y="0.757454" />
-                        <image-point name="MEAT3" x="0.765517" y="0.757454" />
-                        <image-point name="PELT" x="0.390805" y="0.354553" />
-                        <collision-poly>
-                            <point x="0.054023" y="0.34166" />
-                            <point x="0.503449" y="0.298952" />
-                            <point x="0.611782" y="0.143634" />
-                            <point x="0.783334" y="0.301773" />
-                            <point x="0.893966" y="0.847502" />
-                            <point x="0.521839" y="0.839646" />
-                            <point x="0.165517" y="0.485092" />
-                            <point x="0.0563218" y="0.480258" />
-                        </collision-poly>
+                <animation framecount="6" loop="0" name="Attack" pingpong="0" repeatcount="1" repeatto="0" sid="305213654964287" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\41.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.0102" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0408163" />
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500403" original-source="C:\Users\Hachi\Desktop\Bear.png">
-                        <collision-poly>
-                            <point x="0.265517" y="0.18614" />
-                            <point x="0.5" y="0.137792" />
-                            <point x="0.625287" y="0.262691" />
-                            <point x="0.837931" y="0.499597" />
-                            <point x="0.712644" y="0.79855" />
-                            <point x="0.5" y="0.730862" />
-                            <point x="0.293103" y="0.794521" />
-                            <point x="0.228736" y="0.499597" />
-                        </collision-poly>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\42.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01042" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.03125" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\43.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01042" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.03125" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\45.png">
+                        <image-point name="MEAT1" x="0.0266667" y="1.01111" />
+                        <image-point name="MEAT2" x="0.973333" y="1" />
+                        <image-point name="MEAT3" x="0.44" y="0.0333333" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.505747" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\47.png">
+                        <image-point name="MEAT1" x="0.0309278" y="1.01149" />
+                        <image-point name="MEAT2" x="0.969072" y="1" />
+                        <image-point name="MEAT3" x="0.43299" y="0.0344828" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.505747" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\50.png">
+                        <image-point name="MEAT1" x="0.0291262" y="1.01149" />
+                        <image-point name="MEAT2" x="0.970874" y="1" />
+                        <image-point name="MEAT3" x="0.436893" y="0.0344828" />
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="Default_Back" pingpong="0" repeatcount="1" repeatto="0" sid="929576489520495" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\9.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.00893" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.0357143" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\10.png">
+                        <image-point name="MEAT1" x="0.0344828" y="1.00893" />
+                        <image-point name="MEAT2" x="0.965517" y="1" />
+                        <image-point name="MEAT3" x="0.431034" y="0.0357143" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\11.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.00909" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508772" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\12.png">
+                        <image-point name="MEAT1" x="0.0350877" y="1.00926" />
+                        <image-point name="MEAT2" x="0.964912" y="1" />
+                        <image-point name="MEAT3" x="0.438596" y="0.037037" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\13.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.00926" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.037037" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\14.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.00926" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.037037" />
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="Walking" pingpong="0" repeatcount="1" repeatto="0" sid="900945480809373" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\20.png">
+                        <image-point name="MEAT1" x="0.0352941" y="1.00877" />
+                        <image-point name="MEAT2" x="0.964706" y="1" />
+                        <image-point name="MEAT3" x="0.435294" y="0.0350877" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\21.png">
+                        <image-point name="MEAT1" x="0.025641" y="1.00877" />
+                        <image-point name="MEAT2" x="0.974359" y="1" />
+                        <image-point name="MEAT3" x="0.435897" y="0.0350877" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\22.png">
+                        <image-point name="MEAT1" x="0.0298507" y="1.01" />
+                        <image-point name="MEAT2" x="0.970149" y="1" />
+                        <image-point name="MEAT3" x="0.432836" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\24.png">
+                        <image-point name="MEAT1" x="0.0266667" y="1.00926" />
+                        <image-point name="MEAT2" x="0.973333" y="1" />
+                        <image-point name="MEAT3" x="0.44" y="0.037037" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\25.png">
+                        <image-point name="MEAT1" x="0.025641" y="1.01" />
+                        <image-point name="MEAT2" x="0.974359" y="1" />
+                        <image-point name="MEAT3" x="0.435897" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\26.png">
+                        <image-point name="MEAT1" x="0.025974" y="1.01" />
+                        <image-point name="MEAT2" x="0.974026" y="1" />
+                        <image-point name="MEAT3" x="0.441558" y="0.04" />
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="Walking_Back" pingpong="0" repeatcount="1" repeatto="0" sid="661765235962816" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\28.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.00909" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0363636" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\29.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.00926" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.037037" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\30.png">
+                        <image-point name="MEAT1" x="0.0263158" y="1.00943" />
+                        <image-point name="MEAT2" x="0.973684" y="1" />
+                        <image-point name="MEAT3" x="0.434211" y="0.0377358" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\32.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.00962" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0384615" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\33.png">
+                        <image-point name="MEAT1" x="0.0327869" y="1.01" />
+                        <image-point name="MEAT2" x="0.967213" y="1" />
+                        <image-point name="MEAT3" x="0.442623" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.507042" hotspotY="0.504951" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\34.png">
+                        <image-point name="MEAT1" x="0.028169" y="1.0099" />
+                        <image-point name="MEAT2" x="0.971831" y="1" />
+                        <image-point name="MEAT3" x="0.43662" y="0.039604" />
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="Attack_Back" pingpong="0" repeatcount="1" repeatto="0" sid="364002515428055" speed="5">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\55.png">
+                        <image-point name="MEAT1" x="0.031746" y="1.01064" />
+                        <image-point name="MEAT2" x="0.968254" y="1" />
+                        <image-point name="MEAT3" x="0.444444" y="0.0319149" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.507692" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\56.png">
+                        <image-point name="MEAT1" x="0.0307692" y="1.01087" />
+                        <image-point name="MEAT2" x="0.969231" y="1" />
+                        <image-point name="MEAT3" x="0.430769" y="0.0326087" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\57.png">
+                        <image-point name="MEAT1" x="0.0294118" y="1.01087" />
+                        <image-point name="MEAT2" x="0.970588" y="1" />
+                        <image-point name="MEAT3" x="0.441176" y="0.0326087" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.505263" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\59.png">
+                        <image-point name="MEAT1" x="0.031746" y="1.01053" />
+                        <image-point name="MEAT2" x="0.968254" y="1" />
+                        <image-point name="MEAT3" x="0.444444" y="0.0315789" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.505155" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\61.png">
+                        <image-point name="MEAT1" x="0.0273973" y="1.01031" />
+                        <image-point name="MEAT2" x="0.972603" y="1" />
+                        <image-point name="MEAT3" x="0.438356" y="0.0412371" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.505376" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\62.png">
+                        <image-point name="MEAT1" x="0.0273973" y="1.01075" />
+                        <image-point name="MEAT2" x="0.972603" y="1" />
+                        <image-point name="MEAT3" x="0.438356" y="0.0322581" />
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Hurt" pingpong="0" repeatcount="1" repeatto="0" sid="128503600873864" speed="5">
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\68.png">
+                        <image-point name="MEAT1" x="0.0344828" y="1.01" />
+                        <image-point name="MEAT2" x="0.965517" y="1" />
+                        <image-point name="MEAT3" x="0.436782" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\70.png">
+                        <image-point name="MEAT1" x="0.0344828" y="1.01" />
+                        <image-point name="MEAT2" x="0.965517" y="1" />
+                        <image-point name="MEAT3" x="0.436782" y="0.04" />
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Hurt_Back" pingpong="0" repeatcount="1" repeatto="0" sid="772235331855290" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\69.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01064" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0319149" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\71.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01064" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0319149" />
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="757873119717243" speed="5">
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\68.png">
+                        <image-point name="MEAT1" x="0.0344828" y="1.01" />
+                        <image-point name="MEAT2" x="0.965517" y="1" />
+                        <image-point name="MEAT3" x="0.436782" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\70.png">
+                        <image-point name="MEAT1" x="0.0344828" y="1.01" />
+                        <image-point name="MEAT2" x="0.965517" y="1" />
+                        <image-point name="MEAT3" x="0.436782" y="0.04" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\83.png">
+                        <image-point name="MEAT1" x="0.0352941" y="1.0119" />
+                        <image-point name="MEAT2" x="0.964706" y="1" />
+                        <image-point name="MEAT3" x="0.435294" y="0.0357143" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\84.png">
+                        <image-point name="MEAT1" x="0.0306122" y="1.01351" />
+                        <image-point name="MEAT2" x="0.969388" y="1" />
+                        <image-point name="MEAT3" x="0.438776" y="0.0405405" />
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Die_Back" pingpong="0" repeatcount="1" repeatto="0" sid="638563025998974" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\69.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01064" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0319149" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\71.png">
+                        <image-point name="MEAT1" x="0.0285714" y="1.01064" />
+                        <image-point name="MEAT2" x="0.971429" y="1" />
+                        <image-point name="MEAT3" x="0.442857" y="0.0319149" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\85.png">
+                        <image-point name="MEAT1" x="0.0305344" y="1.01471" />
+                        <image-point name="MEAT2" x="0.969466" y="1" />
+                        <image-point name="MEAT3" x="0.435115" y="0.0294118" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usuario\Desktop\U\Otros\Resources\sprite\Grizzly\86.png">
+                        <image-point name="MEAT1" x="0.0322581" y="1.01563" />
+                        <image-point name="MEAT2" x="0.967742" y="1" />
+                        <image-point name="MEAT3" x="0.435484" y="0.03125" />
                     </frame>
                 </animation>
             </animation-folder>
