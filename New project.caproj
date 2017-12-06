@@ -344,9 +344,9 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="482139724185388" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol 4.png">
-                        <image-point name="Imagepoint 1" x="0.0272727" y="0.967213" />
-                        <image-point name="Imagepoint 2" x="0" y="0.606557" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\Nicolas\Desktop\PPT Teatro\Sprites\trees-greenland\tree6\tree6_0000.png">
+                        <image-point name="Imagepoint 1" x="0.0277778" y="0.969231" />
+                        <image-point name="Imagepoint 2" x="0" y="0.6" />
                         <collision-poly>
                             <point x="0.548871" y="0.237705" />
                             <point x="0.549607" y="0.983607" />
@@ -732,7 +732,7 @@
         </object-type>
         <object-type name="TiledBackground" sid="943538927402319">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Hachi\Desktop\mapa 3.png" />
+            <texture original-source="C:\Users\Nicolas\Downloads\24740408_1951981478146164_1208557187_n (1).png" />
         </object-type>
         <object-type name="TiledBackground2" sid="919199573021105">
             <plugin id="TiledBg" />
