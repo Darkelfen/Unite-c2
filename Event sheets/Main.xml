@@ -32,12 +32,12 @@
                         <condition id="-2" name="On start of layout" sid="151442566284699" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="PinToImagePoint" id="1" name="Pin to image point" sid="159853174515173" type="Text">
+                        <action behavior="PinToImagePoint" id="1" name="Pin to image point" sid="159853174515173" type="Dialog1">
                             <param id="0" name="Pin to">Bocadillo</param>
                             <param id="1" name="ImagePoint">0</param>
                             <param id="2" name="Mode">1</param>
                         </action>
-                        <action behavior="PinToImagePoint" id="1" name="Pin to image point" sid="881641081854755" type="Text2">
+                        <action behavior="PinToImagePoint" id="1" name="Pin to image point" sid="881641081854755" type="Dialog2">
                             <param id="0" name="Pin to">Bocadillo2</param>
                             <param id="1" name="ImagePoint">0</param>
                             <param id="2" name="Mode">1</param>
@@ -89,6 +89,12 @@
                         <action id="-7" name="Set size" sid="159762396317276" type="burbujas_2">
                             <param id="0" name="Width">20</param>
                             <param id="1" name="Height">20</param>
+                        </action>
+                        <action id="3" name="Set font size" sid="278915124151906" type="Dialog1">
+                            <param id="0" name="Size (pt)">2</param>
+                        </action>
+                        <action id="3" name="Set font size" sid="878453708510474" type="Dialog2">
+                            <param id="0" name="Size (pt)">2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1523,6 +1529,48 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="731739117063011">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="851232335231298" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="144314093981241" type="Player2">
+                            <param id="0" name="Instance variable">Axe</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="383801688032395" type="System">
+                            <param id="0" name="Variable">QuestLog</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="681218353637765" type="System">
+                            <param id="0" name="Variable">QuestLog</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="953988657833163">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="427856009497100" type="Keyboard">
+                            <param id="0" name="Key">76 (L)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="209286268807965" type="Player2">
+                            <param id="0" name="Instance variable">Axe</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="170218094850780" type="System">
+                            <param id="0" name="Variable">QuestLog</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="878278491187612" type="System">
+                            <param id="0" name="Variable">QuestLog</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="927515011352964" title="Bonfire Mechanics">
@@ -2282,7 +2330,7 @@
                         <action id="-15" name="Set visible" sid="556630374115934" type="Bocadillo">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="319887868254948" type="Text">
+                        <action id="-15" name="Set visible" sid="319887868254948" type="Dialog1">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="351696340193748" type="Bocadillo">
@@ -2303,7 +2351,7 @@
                         <action id="-15" name="Set visible" sid="424709266682127" type="Bocadillo2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="109784618479855" type="Text2">
+                        <action id="-15" name="Set visible" sid="109784618479855" type="Dialog2">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="958734166640357" type="Bocadillo2">
@@ -2324,7 +2372,7 @@
                         <action id="-15" name="Set visible" sid="170126543924169" type="Bocadillo">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="519335355274141" type="Text">
+                        <action id="-15" name="Set visible" sid="519335355274141" type="Dialog1">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-10" name="Set value" sid="485648094920595" type="Bocadillo">
@@ -2345,7 +2393,7 @@
                         <action id="-15" name="Set visible" sid="328714449799842" type="Bocadillo2">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="524244846597637" type="Text2">
+                        <action id="-15" name="Set visible" sid="524244846597637" type="Dialog2">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-10" name="Set value" sid="101852234774734" type="Bocadillo2">
@@ -3009,10 +3057,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="744977763534377" type="Text">
+                        <action id="0" name="Set text" sid="744977763534377" type="Dialog1">
                             <param id="0" name="Text">&quot; Hey! That&apos;s my backpack&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="670945912617618" type="Text2">
+                        <action id="0" name="Set text" sid="670945912617618" type="Dialog2">
                             <param id="0" name="Text">&quot;And look those axes&quot;</param>
                         </action>
                     </actions>
@@ -3026,10 +3074,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="858590864103419" type="Text">
+                        <action id="0" name="Set text" sid="858590864103419" type="Dialog1">
                             <param id="0" name="Text">&quot; We can keep everything inside&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="403283958325991" type="Text2">
+                        <action id="0" name="Set text" sid="403283958325991" type="Dialog2">
                             <param id="0" name="Text">&quot;Let&apos;s grab the axes&quot;</param>
                         </action>
                     </actions>
@@ -3043,11 +3091,28 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="989596898765423" type="Text">
+                        <action id="0" name="Set text" sid="989596898765423" type="Dialog1">
                             <param id="0" name="Text">&quot; Press L to Cut&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="230965892370499" type="Text2">
+                        <action id="0" name="Set text" sid="230965892370499" type="Dialog2">
                             <param id="0" name="Text">&quot;Press Q to Cut&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="852147700286805">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="169445620170992" type="System">
+                            <param id="0" name="Variable">QuestLog</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="809041441744085" type="Dialog1">
+                            <param id="0" name="Text">&quot; Hey we can chop some trees&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="690785486463529" type="Dialog2">
+                            <param id="0" name="Text">&quot;Let&apos;s make a bonfire&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -3411,40 +3476,46 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="842816247175642">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="502972431655171" type="Bear">
+                            <param id="0" name="Instance variable">isAttacking</param>
+                        </condition>
+                        <condition id="2" inverted="1" name="Is playing" sid="988139325675084" type="Bear">
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="773658865863715" type="Bear">
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="6" name="Set speed" sid="770818880601394" type="Bear">
+                            <param id="0" name="Speed">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="752775397800717">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="838594323811178" type="Bear">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">5</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="377164887808895" type="Bear">
+                            <param id="0" name="Instance variable">isAttacking</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="989126681863009" type="Bear">
+                            <param id="0" name="Animation">&quot;Attack&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="6" name="Set speed" sid="698032751743789" type="Bear">
+                            <param id="0" name="Speed">10</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="842816247175642">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="376506657744518" type="System" />
-                <condition id="-8" name="Is boolean instance variable set" sid="502972431655171" type="Bear">
-                    <param id="0" name="Instance variable">isAttacking</param>
-                </condition>
-                <condition id="2" inverted="1" name="Is playing" sid="988139325675084" type="Bear">
-                    <param id="0" name="Animation">&quot;Attack&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="773658865863715" type="Bear">
-                    <param id="0" name="Animation">&quot;Attack&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="6" name="Set speed" sid="770818880601394" type="Bear">
-                    <param id="0" name="Speed">0.5</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="752775397800717">
-            <conditions>
-                <condition id="4" name="On finished" sid="838594323811178" type="Bear">
-                    <param id="0" name="Animation">&quot;Attacking&quot;</param>
-                </condition>
-                <condition id="-1" name="Every tick" sid="592426163639376" type="System" />
-            </conditions>
-            <actions>
-                <action id="3" name="Start" sid="404082396105628" type="Bear">
-                    <param id="0" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

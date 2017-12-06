@@ -352,7 +352,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="12">
+                <instance type="Dialog1" uid="12">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -647,7 +647,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="113">
+                <instance type="Dialog2" uid="113">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
