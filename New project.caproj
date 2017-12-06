@@ -344,7 +344,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="482139724185388" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\Nicolas\Desktop\PPT Teatro\Sprites\trees-greenland\tree6\tree6_0000.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\Nicolas\Desktop\PPT Teatro\Sprites\trees-greenland\tree1\tree1_00.png">
                         <image-point name="Imagepoint 1" x="0.0277778" y="0.969231" />
                         <image-point name="Imagepoint 2" x="0" y="0.6" />
                         <collision-poly>
@@ -356,7 +356,7 @@
                     </frame>
                 </animation>
                 <animation framecount="2" loop="0" name="Corte" pingpong="0" repeatcount="1" repeatto="0" sid="670526415939501" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol talado mitad.png">
+                    <frame duration="1" hotspotX="0.505263" hotspotY="0.507692" original-source="C:\Users\Nicolas\Desktop\PPT Teatro\Sprites\trees-greenland\tree1\f_tree1_04.png">
                         <collision-poly>
                             <point x="0.563636" y="0.360656" />
                             <point x="0.590909" y="0.967213" />
@@ -364,7 +364,7 @@
                             <point x="0.390908" y="0.377049" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Hachi\Desktop\arbol talado.png">
+                    <frame duration="1" hotspotX="0.505263" hotspotY="0.507692" original-source="C:\Users\Nicolas\Desktop\PPT Teatro\Sprites\trees-greenland\tree1\f_tree1_11.png">
                         <collision-poly>
                             <point x="0.336363" y="0.762295" />
                             <point x="0.563637" y="0.762295" />
