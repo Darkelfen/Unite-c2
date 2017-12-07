@@ -527,7 +527,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="538830536877156">
+        <object-type name="Dialog1" sid="538830536877156">
             <plugin id="Text" />
             <behaviors>
                 <behavior-type name="PinToImagePoint" sid="267559937140869">
@@ -1232,7 +1232,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text2" sid="742936469107722">
+        <object-type name="Dialog2" sid="742936469107722">
             <plugin id="Text" />
             <behaviors>
                 <behavior-type name="PinToImagePoint" sid="705779473219072">
